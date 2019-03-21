@@ -28,9 +28,10 @@ $("#pcnumber").charAt(19).replaceWith(pcScore); };
 // In this line I intend to assign the rndom values to the images 
 function assigner () {
    $("#cake").attr(btnValueAssign1)
-
-
-}
+    $("#cookie")
+    $("#bread")
+    $("watermelon")
+}   
 function winloss () {
 
     if (win) //Reset the game and pick another pcScore to match 
