@@ -22,15 +22,17 @@ var btnValueAssign1 = btnValues[Math.floor(Math.random() * btnValues.length)] ;
  
 // In the following lines attempt to replace the x in the pcnumber id from the html, with the chosen random number from the pcScore variable
 function rndmPcScore () { 
-    
-$("#pcnumber").charAt(19).replaceWith(pcScore); }; 
+    var pcNumber = $("#pcnumber");
+pcNumber.charAt(19).replaceWith(pcScore); }; 
 // functions
 // In this line I intend to assign the rndom values to the images 
 function assigner () {
-   $("#cake").attr(btnValueAssign1)
-    $("#cookie")
-    $("#bread")
-    $("watermelon")
+var imgs = $("#cake cookie bread watermelon")
+
+//    $("#cake").attr(btnValueAssign1)
+//     $("#cookie").textcont
+//     $("#bread")
+//     $("watermelon")
 }   
 function winloss () {
 
